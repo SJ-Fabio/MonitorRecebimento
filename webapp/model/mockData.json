@@ -1,0 +1,1273 @@
+{
+
+    "dataAtual": "23/02/2022  19:00:00",
+
+    "PurchaseOrder": "",
+
+
+    "documentos": [
+        {
+            "StatusGeral": "Emitida",
+            "StateOfStatusGeral": "Success",
+            "PurchaseOrder": "5036710",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 001",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "None",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "5522.62"
+
+
+        },
+        {
+            "StatusGeral": "Em análise",
+            "StateOfStatusGeral": "Success",
+            "PurchaseOrder": "5036711",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 002",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "OK",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "3221.35"
+
+        },
+
+        {
+            "StatusGeral": "Recebida",
+            "StateOfStatusGeral": "Information",
+            "PurchaseOrder": "5036712",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 001",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "OK",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "11251.85"
+
+        },
+
+        {
+            "StatusGeral": "Rejeitada",
+            "StateOfStatusGeral": "Error",
+            "PurchaseOrder": "5036713",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 003",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "OK",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "221.95"
+
+        },
+
+        {
+            "StatusGeral": "Aguardando pagamento",
+            "StateOfStatusGeral": "Warning",
+            "PurchaseOrder": "5036714",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 004",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "OK",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "7411.00"
+
+        },
+
+        {
+            "StatusGeral": "Emitida",
+            "StateOfStatusGeral": "Success",
+            "PurchaseOrder": "5036715",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 001",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "22321.29"
+
+        },
+
+        {
+            "StatusGeral": "Paga",
+            "StateOfStatusGeral": "Success",
+            "PurchaseOrder": "5036716",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 003",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "5521.85"
+
+        },
+
+        {
+            "StatusGeral": "Recebida",
+            "StateOfStatusGeral": "Information",
+            "PurchaseOrder": "5036717",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 001",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "8522.00"
+
+        },
+
+        {
+            "StatusGeral": "Aguardando Mercadoria",
+            "StateOfStatusGeral": "Warning",
+            "PurchaseOrder": "5036718",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 002",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "99.52"
+
+        },
+
+        {
+            "StatusGeral": "Recebida",
+            "StateOfStatusGeral": "Information",
+            "PurchaseOrder": "5036719",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 001",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "9522.00"
+
+        },
+
+        {
+            "StatusGeral": "Recebida",
+            "StateOfStatusGeral": "Information",
+            "PurchaseOrder": "5036720",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 003",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "4456.29"
+
+        },
+
+        {
+            "StatusGeral": "Recebida",
+            "StateOfStatusGeral": "Information",
+            "PurchaseOrder": "5036721",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 003",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "58231.29"
+
+        },
+
+        {
+            "StatusGeral": "Emitida",
+            "StateOfStatusGeral": "Success",
+            "PurchaseOrder": "5036722",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 005",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "OK",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "12456.99"
+
+        },
+        {
+            "StatusGeral": "Recebida",
+            "StateOfStatusGeral": "Information",
+            "PurchaseOrder": "5036723",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 004",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "98551.00"
+
+        },
+        {
+            "StatusGeral": "Emitida",
+            "StateOfStatusGeral": "Information",
+            "PurchaseOrder": "5036724",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 004",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "15220.74"
+
+        },
+        {
+            "StatusGeral": "Rejeitada",
+            "StateOfStatusGeral": "Error",
+            "PurchaseOrder": "5036725",
+            "DataAgendamento": "16/02/2022 10:00:00",
+            "DataFim": "16/02/2022 11:00:00",
+            "TipoVeiculo": "VUC100",
+            "LocalRecebimento": "Local 004",
+            "PlacaVeiculo": "GSV-8953",
+            "DataCheckIn": "16/02/2022 10:00:00",
+            "DataCheckOut": "16/02/2022 10:50:00",
+            "StatusConferencia": "",
+            "StateOfStatusConferencia": "Success",
+            "DataHoraCOnferencia": "16/02/2022 10:15:00",
+            "ICMS": "19.50",
+            "ICMS_ST": "4.50",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "150.29"
+
+        }
+
+    ],
+
+
+    "nodes": [
+        {   
+            "PurchaseOrder":"5036710",
+			"id": "1",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ 2 ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036710",
+			"id": "2",
+			"lane": "1",
+			"title": "Aguardando processamento",
+			"titleAbbreviation": "Aguardando processamento",
+			"children": [  ],
+			"state": "Planned",
+			"stateText": "Aguardando",
+			"focused": false,
+			"texts": null
+
+        },
+  
+    {   
+            "PurchaseOrder":"5036711",
+			"id": "1",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ 2 ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": [
+				"Em: 17/02/2022",
+				"Às: 18:24:47"
+			]
+
+        },
+        {   
+            "PurchaseOrder":"5036711",
+			"id": "2",
+			"lane": "1",
+			"title": "Em processamento",
+			"titleAbbreviation": "Em processamento",
+			"children": [  ],
+			"state": "Critical",
+			"stateText": "Aguarde",
+			"focused": false,
+			"texts": [
+				"Em: 17/02/2022",
+				"Às: 18:24:47"
+			]
+
+        },
+        {   
+            "PurchaseOrder":"5036712",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036712",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036712",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036712",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [  ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036713",
+			"id": "1",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ 2 ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": [
+				"Em: 17/02/2022",
+				"Às: 18:24:47"
+			]
+
+        },
+        {   
+            "PurchaseOrder":"5036713",
+			"id": "2",
+			"lane": "1",
+			"title": "Rejeitada: NCM Incorreto",
+			"titleAbbreviation": "Rejeitada",
+			"children": [  ],
+			"state": "Negative",
+			"stateText": "Rejeitada",
+			"focused": false,
+			"texts": [
+				"Em: 17/02/2022",
+				"Às: 18:24:47"
+			]
+
+        },
+        {   
+            "PurchaseOrder":"5036714",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036714",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036714",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036714",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "060" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036714",
+			"id": "060",
+			"lane": "4",
+			"title": "Aguardando Pagamento",
+			"titleAbbreviation": "Aguardando Pagamento",
+            "children": [ ],
+			"state": "Planned",
+			"stateText": "Aguardando",
+			"focused": false,
+			"texts": ["Pagamento previsto para: 26/02/2022"]
+
+        },
+        {   
+            "PurchaseOrder":"5036715",
+			"id": "1",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ 2 ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036715",
+			"id": "2",
+			"lane": "1",
+			"title": "Aguardando processamento",
+			"titleAbbreviation": "Aguardando processamento",
+			"children": [  ],
+			"state": "Planned",
+			"stateText": "Aguardando",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036716",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036716",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036716",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036716",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "060" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036716",
+			"id": "060",
+			"lane": "4",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "070" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": ["Pagamento previsto para: 26/02/2022"]
+
+        },
+		{   
+            "PurchaseOrder":"5036716",
+			"id": "070",
+			"lane": "5",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": ["Pagamento Realizado em:",  "24/02/2022"]
+
+        },
+        {   
+            "PurchaseOrder":"5036717",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036717",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036717",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036717",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [  ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036718",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036718",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "030" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036718",
+			"id": "030",
+			"lane": "2",
+			"title": "Aguardando Processamento",
+			"titleAbbreviation": "Aguardando...",
+            "children": [ ],
+			"state": "Planned",
+			"stateText": "",
+			"focused": false,
+			"texts": ["Pagamento previsto para: 26/02/2022"]
+
+        },
+        {   
+            "PurchaseOrder":"5036719",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036719",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036719",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036719",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [  ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036720",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036720",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036720",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036720",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [  ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036721",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036721",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036721",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036721",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [  ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036722",
+			"id": "1",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ 2 ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036722",
+			"id": "2",
+			"lane": "1",
+			"title": "Aguardando processamento",
+			"titleAbbreviation": "Aguardando processamento",
+			"children": [  ],
+			"state": "Planned",
+			"stateText": "Aguardando",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036723",
+			"id": "010",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": ["020"],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036723",
+			"id": "020",
+			"lane": "1",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ "040" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": true,
+			"texts":  null
+
+        },
+        {   
+            "PurchaseOrder":"5036723",
+			"id": "040",
+			"lane": "2",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [ "050" ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036723",
+			"id": "050",
+			"lane": "3",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+            "children": [  ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": null
+
+        },
+        {   
+            "PurchaseOrder":"5036725",
+			"id": "1",
+			"lane": "0",
+			"title": "Processado",
+			"titleAbbreviation": "Processado",
+			"children": [ 2 ],
+			"state": "Positive",
+			"stateText": "Concluído",
+			"focused": false,
+			"texts": [
+				"Em: 17/02/2022",
+				"Às: 18:24:47"
+			]
+
+        },
+        {   
+            "PurchaseOrder":"5036725",
+			"id": "2",
+			"lane": "1",
+			"title": "Valor NF diferente Valor Pedido",
+			"titleAbbreviation": "Rejeitada",
+			"children": [  ],
+			"state": "Negative",
+			"stateText": "Rejeitada",
+			"focused": false,
+			"texts": [
+				"Em: 17/02/2022",
+				"Às: 18:24:47"
+			]
+
+        }
+
+    ],
+
+    "lanes": [
+		{
+			"id": "0",
+			"icon": "sap-icon://cart-3",
+			"label": "Emitida",
+			"position": 0
+		},
+		{
+			"id": "1",
+			"icon": "sap-icon://inspection",
+			"label": "Em Análise",
+			"position": 1
+		},
+		{
+			"id": "2",
+			"icon": "sap-icon://product",
+			"label": "Aguardando mercadoria fisica",
+			"position": 2
+		},
+		{
+			"id": "3",
+			"icon": "sap-icon://complete",
+			"label": "Recebida",
+			"position": 3
+		},
+		{
+			"id": "4",
+			"icon": "sap-icon://monitor-payments",
+			"label": "Aguardando pagamento",
+			"position": 4
+		},
+		{
+			"id": "5",
+			"icon": "sap-icon://payment-approval",
+			"label": "Paga",
+			"position": 5
+		}
+	],
+
+    "items": [
+        {
+            "item": "10",
+            "descricao": "Produto 1",
+            "quantidade": "50",
+            "un": "UN",
+            "preco": "45.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "20",
+            "descricao": "Produto 2",
+            "quantidade": "30",
+            "un": "UN",
+            "preco": "9.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "30",
+            "descricao": "Produto 3",
+            "quantidade": "2",
+            "un": "UN",
+            "preco": "4.90",
+            "moeda": "BRL",
+            "icone":"sap-icon://accept",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "40",
+            "descricao": "Produto 4",
+            "quantidade": "99",
+            "un": "UN",
+            "preco": "109.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "50",
+            "descricao": "Produto 5",
+            "quantidade": "1500.00",
+            "un": "UN",
+            "preco": "9452.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "60",
+            "descricao": "Produto 6",
+            "quantidade": "2",
+            "un": "UN",
+            "preco": "1.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "70",
+            "descricao": "Produto 7",
+            "quantidade": "32",
+            "un": "UN",
+            "preco": "1256.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "80",
+            "descricao": "Produto 8",
+            "quantidade": "6",
+            "un": "UN",
+            "preco": "45.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "90",
+            "descricao": "Produto 9",
+            "quantidade": "5",
+            "un": "UN",
+            "preco": "14.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        },
+        {
+            "item": "100",
+            "descricao": "Produto 10",
+            "quantidade": "78",
+            "un": "UN",
+            "preco": "98222.90",
+            "moeda": "BRL",
+            "obs": "Separado com sucesso",
+            "ICMS": "2.10",
+            "ICMS_ST": "1.20",
+            "IPI": "0.50",
+            "POS": "0.12",
+            "COFINS": "6.25",
+            "Moeda": "BRL",
+            "Total": "17.67"
+        }
+
+    ]
+
+    
+
+    
+}

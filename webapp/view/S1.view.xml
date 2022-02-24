@@ -1,0 +1,104 @@
+<mvc:View
+    controllerName="delaware.pro.monitor.controller.S1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+    xmlns:fb="sap.ui.comp.filterbar"
+    xmlns:l="sap.ui.layout"
+    xmlns:table="sap.ui.table"
+>   
+    <Page id="home">
+        <content>
+            <l:VerticalLayout width="100%">
+                <fb:FilterBar showFilterConfiguration="false" useToolbar="false">
+                    <fb:filterGroupItems>
+                        <fb:FilterGroupItem groupName="__$INTERNAL$" name="A" label="Nº. Nota Fiscal" partOfCurrentVariant="true" visibleInFilterBar="true">
+                            <fb:control>
+                                <Input/>
+                            </fb:control>
+                        </fb:FilterGroupItem>
+
+                        <fb:FilterGroupItem groupName="__$INTERNAL$" name="B" label="Recebida em" visibleInFilterBar="true">
+                            <fb:control>
+                                 <DateTimePicker
+                                    id="PurchaseOrderP3"
+                                    displayFormat="short"
+                                    class="sapUiSmallMarginBottom" />
+                            </fb:control>
+                        </fb:FilterGroupItem>
+                        <fb:FilterGroupItem groupName="__$INTERNAL$" name="c" label="Atualizado em" visibleInFilterBar="true">
+                            <fb:control>
+                                 <Input />
+                            </fb:control>
+                        </fb:FilterGroupItem>
+                        <fb:FilterGroupItem groupName="__$INTERNAL$" name="d" label="Status" visibleInFilterBar="true">
+                            <fb:control>
+                                 <Input />
+                            </fb:control>
+                        </fb:FilterGroupItem>
+                    </fb:filterGroupItems>
+                </fb:FilterBar>
+            </l:VerticalLayout>
+            <Table items="{ path: 'local>/documentos',
+                            sorter: { path: 'Material', 
+                            descending: false},
+                            templateShareable: false}"
+                    id="GridDocumentos"
+                    sticky="ColumnHeaders"
+                    fixedLayout="false"
+                    itemPress="onItemPress">
+             <items>
+                <ColumnListItem type="Active">
+                    <Text text="{local>PurchaseOrder}"/>
+                    <ObjectStatus text="{local>StatusGeral}" state="{local>StateOfStatusGeral}"/>
+                    <Text text="{local>DataAgendamento}"/>
+                    <Text text="{local>DataFim}"/>
+                    <ObjectNumber number="{ parts: [ 
+                                            {path: 'local>Total'}, 
+                                            {path: 'local>Moeda'} 
+                                        ], 
+                                        type: 'sap.ui.model.type.Currency', 
+                                        formatOptions: { showMeasure: false } }"
+                                    unit="{local>Moeda}"/>
+                    <Text text="{local>LocalRecebimento}"/>
+                    
+                </ColumnListItem>
+            </items>
+            <columns>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWiPurchaseOrderh="Phone">
+                    <header>
+                        <Label text="Nº. Nota Fiscal"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWiPurchaseOrderh="Phone">
+                    <header>
+                        <Label text="Status"/>
+                    </header>
+                </Column>
+                
+                <Column demandPopin="true" popinDisplay="Block" minScreenWiPurchaseOrderh="Phone">
+                    <header>
+                        <Label text="Recebida em"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWiPurchaseOrderh="Phone">
+                    <header>
+                        <Label text="Última atualização em"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWiPurchaseOrderh="Phone" hAlign="End">
+                    <header>
+                        <Label text="Valor Total da  Nota"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWiPurchaseOrderh="Phone">
+                    <header>
+                        <Label text="Local de Recebimento"/>
+                    </header>
+                </Column>
+                
+            </columns>
+        </Table>
+        </content>
+    </Page>
+</mvc:View>

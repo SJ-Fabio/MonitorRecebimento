@@ -1,0 +1,189 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:commons="sap.suite.ui.commons"
+    controllerName="delaware.pro.monitor.controller.S2">
+    	<ObjectHeader   title="{local>/PurchaseOrder}"
+                        number="{
+                            parts:[{path:'DocumentoHeader>/Total'},{path:'DocumentoHeader>/Moeda'}],
+                            type: 'sap.ui.model.type.Currency',
+                            formatOptions: {showMeasure: false} }"
+                        numberUnit="{DocumentoHeader>/Moeda}"
+                        numberState="Success"
+                        backgroundDesign="Translucent"
+                        class="sapUiResponsivePadding--header"
+                        fullScreenOptimized="true" 
+                        responsive="true">    
+
+         <ObjectAttribute text="Local Recebimento: {DocumentoHeader>/LocalRecebimento}" />               
+         <ObjectAttribute text="Criado em: {DocumentoHeader>/DataAgendamento}" />               
+         <ObjectAttribute text="ICMS: {DocumentoHeader>/ICMS} {DocumentoHeader>/Moeda}" />               
+         <ObjectAttribute text="ICMS-ST: {DocumentoHeader>/ICMS_ST} {DocumentoHeader>/Moeda}" />               
+         <ObjectAttribute text="IPI: {DocumentoHeader>/IPI} {DocumentoHeader>/Moeda}" />               
+         <ObjectAttribute text="PIS: {DocumentoHeader>/POS} {DocumentoHeader>/Moeda}" />               
+         <ObjectAttribute text="COFINS: {DocumentoHeader>/COFINS} {DocumentoHeader>/Moeda}" />               
+        <statuses>
+			<ObjectStatus
+				title="Status"
+				text="{DocumentoHeader>/StatusGeral}"
+				state="{DocumentoHeader>/StateOfStatusGeral}"/>
+		</statuses>
+
+        </ObjectHeader>
+     <VBox >
+      <IconTabBar id="idIconTabBar" class="sapUiResponsiveContentPadding" selectedKey="fluxo" >
+        <items>
+            <IconTabFilter  text="Itens" key="items">
+          <Table class="sapUiSmallMarginBegin"
+	                                   items="{ path: 'local>/items',
+	                                		   sorter: { path: 'Material', 
+	                                		   descending: false},
+	                                		   templateShareable: false}"
+	                                   id="GridDocumentos"
+	                                   sticky="ColumnHeaders"
+	                                   fixedLayout="false">
+             <items>
+                <ColumnListItem type="Active">
+                    <Text text="{local>item}"/>
+                    <Text text="{local>descricao}"/>
+                    <ObjectNumber number="{ parts:[{path:'local>quantidade'},{path:'un'}],
+                                            type: 'sap.ui.model.type.Unit',
+                                            formatOptions: {showMeasure: false}
+                                        }"
+                                    unit="{local>un}" />
+                    <ObjectNumber number="{ parts: [ 
+                                            {path: 'local>preco'}, 
+                                            {path: 'local>moeda'} 
+                                        ], 
+                                        type: 'sap.ui.model.type.Currency', 
+                                        formatOptions: { showMeasure:  false } }"
+                                    unit="{local>moeda}"/>
+                    <ObjectNumber number="{ parts: [ 
+                                            {path: 'local>ICMS'}, 
+                                            {path: 'local>moeda'} 
+                                        ], 
+                                        type: 'sap.ui.model.type.Currency', 
+                                        formatOptions: { showMeasure:  false } }"
+                                    unit="{local>moeda}"/>
+                    <ObjectNumber number="{ parts: [ 
+                                            {path: 'local>ICMS_ST'}, 
+                                            {path: 'local>moeda'} 
+                                        ], 
+                                        type: 'sap.ui.model.type.Currency', 
+                                        formatOptions: { showMeasure:  false } }"
+                                    unit="{local>moeda}"/>
+                    <ObjectNumber number="{ parts: [ 
+                                            {path: 'local>IPI'}, 
+                                            {path: 'local>moeda'} 
+                                        ], 
+                                        type: 'sap.ui.model.type.Currency', 
+                                        formatOptions: { showMeasure:  false } }"
+                                    unit="{local>moeda}"/>
+                    <ObjectNumber number="{ parts: [ 
+                                            {path: 'local>POS'}, 
+                                            {path: 'local>moeda'} 
+                                        ], 
+                                        type: 'sap.ui.model.type.Currency', 
+                                        formatOptions: { showMeasure:  false } }"
+                                    unit="{local>moeda}"/>
+                    <ObjectNumber number="{ parts: [ 
+                                            {path: 'local>COFINS'}, 
+                                            {path: 'local>moeda'} 
+                                        ], 
+                                        type: 'sap.ui.model.type.Currency', 
+                                        formatOptions: { showMeasure:  false } }"
+                                    unit="{local>moeda}"/>             
+                    <ObjectStatus class="sapUiSmallMarginBottom"
+                                  icon="sap-icon://accept"
+                                  state="Success" />
+                </ColumnListItem>
+            </items>
+            <columns>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="Item"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="Descrição"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="Quantidade"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="Preço"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="ICMS"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="ICMS_ST"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="IPI"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="PIS"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone">
+                    <header>
+                        <Label text="COFINS"/>
+                    </header>
+                </Column>
+                <Column demandPopin="true" popinDisplay="Block" minScreenWidth="Phone" hAlign="Center">
+                    <header>
+                        <Label text="Status"/>
+                    </header>
+                </Column>
+            </columns>
+        </Table>
+            </IconTabFilter>
+            <IconTabFilter  text="Fluxo do Documento" key="fluxo">
+                <Panel>
+                    <commons:ProcessFlow
+                        id="processflow"
+                        scrollable="false"
+                        showLabels="true"
+                        nodes="{DocumentDisplay>/}"
+                        lanes="{local>/lanes}">
+                        <commons:nodes>
+                            <commons:ProcessFlowNode
+                                laneId="{DocumentDisplay>lane}"
+                                nodeId="{DocumentDisplay>id}"
+                                title="{DocumentDisplay>title}"
+                                titleAbbreviation="{DocumentDisplay>titleAbbreviation}"
+                                children="{DocumentDisplay>children}"
+                                state="{DocumentDisplay>state}"
+                                stateText="{DocumentDisplay>stateText}"
+                                texts="{DocumentDisplay>texts}"
+                                focused="{DocumentDisplay>focused}" />
+                        </commons:nodes>
+                        <commons:lanes>
+                            <commons:ProcessFlowLaneHeader
+                                laneId="{local>id}"
+                                iconSrc="{local>icon}"
+                                text="{local>label}"
+                                position="{local>position}" />
+                        </commons:lanes>
+                    </commons:ProcessFlow>
+                </Panel>
+            </IconTabFilter>
+        </items>
+      </IconTabBar>
+      </VBox >
+	
+</mvc:View>
